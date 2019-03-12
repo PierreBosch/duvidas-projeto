@@ -19,7 +19,7 @@ describe("Products saga", () => {
     sagaTester.run(rootSaga);
   });
 
-  it("should be able to fetch banners from API", async () => {
+  it("should be able to fetch products from API", async () => {
     const products = [
       {
         id: 1,
